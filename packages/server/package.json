@@ -22,7 +22,7 @@
     "nodemon": "^2.0.15"
   },
   "imports": {
-    "#controllers/*": "./src/controllers/*.js"
+    "#controllers/*": "./src/controllers/*"
   },
   "type": "module"
 }
