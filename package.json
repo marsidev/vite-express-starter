@@ -30,7 +30,7 @@
     "start:all": "pnpm build && pnpm start",
     "heroku-prebuild": "npm install -g pnpm && pnpm --version",
     "heroku-postbuild": "pnpm install",
-    "heroku-deploy": "git push heroku HEAD:master"
+    "heroku-deploy": "git push heroku master"
   },
   "devDependencies": {
     "eslint": "7.32.0",
@@ -39,7 +39,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.2.0"
   },
-  "packageManager": "pnpm@6.20.0",
+  "packageManager": "pnpm@6.32.6",
   "pnpm": {
     "overrides": {
       "client": "workspace:*",
@@ -47,6 +47,7 @@
     }
   },
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "pnpm": "6.x"
   }
 }
