@@ -3,7 +3,7 @@
   "name": "vite-express-starter",
   "builds": [
     {
-      "src": "packages/*.js",
+      "src": "packages/server/index.js",
       "use": "@vercel/node@latest",
       "config": {
         "includeFiles": [
@@ -14,5 +14,5 @@
       }
     }
   ],
-  "routes": [{ "src": "/(.*)", "dest": "packages/server/index.js" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/src/index.js" }]
 }
