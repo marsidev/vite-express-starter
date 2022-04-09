@@ -1,0 +1,4838 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "author": {
+        "name": "Luis Marsiglia",
+        "email": "marsiglia.business@gmail.com"
+      },
+      "name": "@vite-express-starter/server",
+      "version": "0.0.1",
+      "main": "index.js",
+      "license": "ISC",
+      "scripts": {
+        "start": "cross-env NODE_ENV=production node index.js",
+        "server": "cross-env NODE_ENV=development nodemon index.js"
+      },
+      "dependencies": {
+        "express": "^4.17.3",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^10.0.0"
+      },
+      "devDependencies": {
+        "jest": "^26.6.3",
+        "nodemon": "^2.0.15",
+        "supertest": "6.1.6"
+      },
+      "jest": {
+        "testEnvironment": "node"
+      }
+    },
+    "prefix": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\Luis Marsiglia\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/dotenv/10.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "dotenv",
+      "rawSpec": "10"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dotenv/10.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/supertest/6.1.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "supertest",
+      "rawSpec": "6.1.6"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supertest/6.1.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "8 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/supertest/6.1.6",
+    "size": 7263,
+    "status": "started"
+  },
+  "9 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/dotenv/10.0.0",
+    "size": 9371,
+    "status": "started"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dotenv/10.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supertest/6.1.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cors/2.8.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cors",
+      "rawSpec": "^2.8.5"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cors/2.8.5",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/jest/26.6.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "jest",
+      "rawSpec": "^26.6.3"
+    }
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jest/26.6.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "16 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/jest/26.6.3",
+    "size": 2111,
+    "status": "started"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cors/2.8.5",
+    "size": 6173,
+    "status": "started"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/jest/26.6.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cors/2.8.5",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "20 debug pnpm:update-check": {
+    "currentVersion": "7.0.0-rc.2",
+    "latestVersion": "6.32.4"
+  },
+  "21 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/express"
+  },
+  "22 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/nodemon"
+  },
+  "23 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/cross-env"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.17.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "^4.17.3"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "26 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "size": 54753,
+    "status": "started"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.17.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "28 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/nodemon"
+  },
+  "29 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/cross-env"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cross-env/7.0.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cross-env",
+      "rawSpec": "^7.0.3"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-env/7.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "32 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cross-env/7.0.3",
+    "size": 9301,
+    "status": "started"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-env/7.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nodemon/2.0.15",
+    "wanted": {
+      "dependentId": ".",
+      "name": "nodemon",
+      "rawSpec": "^2.0.15"
+    }
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/object-assign/4.1.1",
+    "wanted": {
+      "dependentId": "/cors/2.8.5",
+      "name": "object-assign",
+      "rawSpec": "^4"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/object-assign/4.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "38 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/methods/1.1.2",
+    "wanted": {
+      "dependentId": "/supertest/6.1.6",
+      "name": "methods",
+      "rawSpec": "^1.1.2"
+    }
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "40 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "size": 57299,
+    "status": "started"
+  },
+  "41 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/object-assign/4.1.1",
+    "size": 2675,
+    "status": "started"
+  },
+  "42 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookie/0.4.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "cookie",
+      "rawSpec": "0.4.2"
+    }
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "44 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "size": 2475,
+    "status": "started"
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/object-assign/4.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.15",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "48 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "size": 6986,
+    "status": "started"
+  },
+  "49 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-local/3.1.0",
+    "wanted": {
+      "dependentId": "/jest/26.6.3",
+      "name": "import-local",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-local/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "51 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/escape-html/1.0.3",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "escape-html",
+      "rawSpec": "~1.0.3"
+    }
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "53 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/depd/1.1.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "depd",
+      "rawSpec": "~1.1.2"
+    }
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/depd/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "56 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/import-local/3.1.0",
+    "size": 2392,
+    "status": "started"
+  },
+  "57 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/etag/1.8.1",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "etag",
+      "rawSpec": "~1.8.1"
+    }
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/etag/1.8.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "59 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "size": 1917,
+    "status": "started"
+  },
+  "60 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "61 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/depd/1.1.2",
+    "size": 9026,
+    "status": "started"
+  },
+  "62 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/etag/1.8.1",
+    "size": 4386,
+    "status": "started"
+  },
+  "63 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/content-disposition/0.5.4",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "content-disposition",
+      "rawSpec": "0.5.4"
+    }
+  },
+  "64 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-disposition/0.5.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-local/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "66 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/etag/1.8.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "67 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/methods/1.1.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "methods",
+      "rawSpec": "~1.1.2"
+    }
+  },
+  "68 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/depd/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "69 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/array-flatten/1.1.1",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "array-flatten",
+      "rawSpec": "1.1.1"
+    }
+  },
+  "70 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/array-flatten/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "71 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/content-disposition/0.5.4",
+    "size": 6739,
+    "status": "started"
+  },
+  "72 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fresh/0.5.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "fresh",
+      "rawSpec": "0.5.2"
+    }
+  },
+  "73 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fresh/0.5.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/merge-descriptors/1.0.1",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "merge-descriptors",
+      "rawSpec": "1.0.1"
+    }
+  },
+  "75 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/merge-descriptors/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "76 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-disposition/0.5.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "77 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/encodeurl/1.0.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "encodeurl",
+      "rawSpec": "~1.0.2"
+    }
+  },
+  "78 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/encodeurl/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "79 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fresh/0.5.2",
+    "size": 4229,
+    "status": "started"
+  },
+  "80 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fresh/0.5.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "81 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/merge-descriptors/1.0.1",
+    "size": 2312,
+    "status": "started"
+  },
+  "82 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/merge-descriptors/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "83 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/encodeurl/1.0.2",
+    "size": 3260,
+    "status": "started"
+  },
+  "84 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/encodeurl/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "85 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/parseurl/1.3.3",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "parseurl",
+      "rawSpec": "~1.3.3"
+    }
+  },
+  "86 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/parseurl/1.3.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "87 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/range-parser/1.2.1",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "range-parser",
+      "rawSpec": "~1.2.1"
+    }
+  },
+  "88 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/range-parser/1.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "89 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/finalhandler/1.1.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "finalhandler",
+      "rawSpec": "~1.1.2"
+    }
+  },
+  "90 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/finalhandler/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/parseurl/1.3.3",
+    "size": 3952,
+    "status": "started"
+  },
+  "92 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/parseurl/1.3.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "93 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/on-finished/2.3.0",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "on-finished",
+      "rawSpec": "~2.3.0"
+    }
+  },
+  "94 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/on-finished/2.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "95 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/range-parser/1.2.1",
+    "size": 3603,
+    "status": "started"
+  },
+  "96 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/finalhandler/1.1.2",
+    "size": 6029,
+    "status": "started"
+  },
+  "97 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/finalhandler/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/range-parser/1.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "99 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/proxy-addr/2.0.7",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "proxy-addr",
+      "rawSpec": "~2.0.7"
+    }
+  },
+  "100 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "101 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/on-finished/2.3.0",
+    "size": 4552,
+    "status": "started"
+  },
+  "102 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/qs/6.9.7",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "qs",
+      "rawSpec": "6.9.7"
+    }
+  },
+  "103 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.9.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "104 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/on-finished/2.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "105 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/serve-static/1.14.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "serve-static",
+      "rawSpec": "1.14.2"
+    }
+  },
+  "106 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/serve-static/1.14.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "107 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/safe-buffer/5.2.1",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "safe-buffer",
+      "rawSpec": "5.2.1"
+    }
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "109 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/qs/6.9.7",
+    "size": 36886,
+    "status": "started"
+  },
+  "110 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "size": 5495,
+    "status": "started"
+  },
+  "111 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/setprototypeof/1.2.0",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "setprototypeof",
+      "rawSpec": "1.2.0"
+    }
+  },
+  "112 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/setprototypeof/1.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "113 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "path-to-regexp",
+      "rawSpec": "0.1.7"
+    }
+  },
+  "114 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "115 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/serve-static/1.14.2",
+    "size": 8439,
+    "status": "started"
+  },
+  "116 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/safe-buffer/5.2.1",
+    "size": 9972,
+    "status": "started"
+  },
+  "117 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/statuses/1.5.0",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "statuses",
+      "rawSpec": "~1.5.0"
+    }
+  },
+  "118 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/statuses/1.5.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "119 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "120 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.9.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "121 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/send/0.17.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "send",
+      "rawSpec": "0.17.2"
+    }
+  },
+  "122 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/send/0.17.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "123 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "size": 3269,
+    "status": "started"
+  },
+  "124 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/statuses/1.5.0",
+    "size": 5482,
+    "status": "started"
+  },
+  "125 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/safe-buffer/5.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "126 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/statuses/1.5.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "128 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/type-is/1.6.18",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "type-is",
+      "rawSpec": "~1.6.18"
+    }
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-is/1.6.18",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "130 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/send/0.17.2",
+    "size": 14923,
+    "status": "started"
+  },
+  "131 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/utils-merge/1.0.1",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "utils-merge",
+      "rawSpec": "1.0.1"
+    }
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/utils-merge/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "133 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/setprototypeof/1.2.0",
+    "size": 1969,
+    "status": "started"
+  },
+  "134 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/setprototypeof/1.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "135 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/serve-static/1.14.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/send/0.17.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "137 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chokidar/3.5.3",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "chokidar",
+      "rawSpec": "^3.5.2"
+    }
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "139 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cross-spawn/7.0.3",
+    "wanted": {
+      "dependentId": "/cross-env/7.0.3",
+      "name": "cross-spawn",
+      "rawSpec": "^7.0.1"
+    }
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "141 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "size": 26290,
+    "status": "started"
+  },
+  "142 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "143 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/pstree.remy/1.1.8",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "pstree.remy",
+      "rawSpec": "^1.1.8"
+    }
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pstree.remy/1.1.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "145 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "size": 7477,
+    "status": "started"
+  },
+  "146 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ignore-by-default/1.0.1",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "ignore-by-default",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "147 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ignore-by-default/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "149 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/5.7.1",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "semver",
+      "rawSpec": "^5.7.1"
+    }
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/5.7.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "151 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/pstree.remy/1.1.8",
+    "size": 5786,
+    "status": "started"
+  },
+  "152 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ignore-by-default/1.0.1",
+    "size": 1648,
+    "status": "started"
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pstree.remy/1.1.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "154 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ignore-by-default/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "155 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/utils-merge/1.0.1",
+    "size": 1953,
+    "status": "started"
+  },
+  "156 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/semver/5.7.1",
+    "size": 17541,
+    "status": "started"
+  },
+  "157 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/utils-merge/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "158 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/undefsafe/2.0.5",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "undefsafe",
+      "rawSpec": "^2.0.5"
+    }
+  },
+  "159 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/undefsafe/2.0.5",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "160 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/5.7.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "161 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimatch/3.1.2",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "minimatch",
+      "rawSpec": "^3.0.4"
+    }
+  },
+  "162 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "163 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/touch/3.1.0",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "touch",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "164 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/touch/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "165 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/undefsafe/2.0.5",
+    "size": 3530,
+    "status": "started"
+  },
+  "166 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/undefsafe/2.0.5",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "167 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "size": 11940,
+    "status": "started"
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "169 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/touch/3.1.0",
+    "size": 3804,
+    "status": "started"
+  },
+  "170 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/touch/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "171 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-key/3.1.1",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "path-key",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "172 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "173 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/update-notifier/5.1.0",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "update-notifier",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "174 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/update-notifier/5.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "175 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/array-flatten/1.1.1",
+    "size": 1992,
+    "status": "started"
+  },
+  "176 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "size": 2258,
+    "status": "started"
+  },
+  "177 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/array-flatten/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "178 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-key/3.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "179 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/update-notifier/5.1.0",
+    "size": 6179,
+    "status": "started"
+  },
+  "180 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/supports-color/5.5.0",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "supports-color",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "181 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/5.5.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "182 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-command/2.0.0",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "shebang-command",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "183 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "184 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/type-is/1.6.18",
+    "size": 5872,
+    "status": "started"
+  },
+  "185 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-is/1.6.18",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "186 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "size": 1506,
+    "status": "started"
+  },
+  "187 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/supports-color/5.5.0",
+    "size": 3067,
+    "status": "started"
+  },
+  "188 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-command/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "189 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/update-notifier/5.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "190 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/5.5.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "191 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/which/2.0.2",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "which",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "192 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "193 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "size": 4496,
+    "status": "started"
+  },
+  "194 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/isexe/2.0.0",
+    "wanted": {
+      "dependentId": "/which/2.0.2",
+      "name": "isexe",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "196 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-regex/3.0.0",
+    "wanted": {
+      "dependentId": "/shebang-command/2.0.0",
+      "name": "shebang-regex",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "197 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "198 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/which/2.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "199 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "size": 3756,
+    "status": "started"
+  },
+  "200 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "size": 1503,
+    "status": "started"
+  },
+  "201 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/isexe/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "202 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/shebang-regex/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "203 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/superagent"
+  },
+  "204 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/vary"
+  },
+  "205 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/content-type"
+  },
+  "206 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/jest-cli"
+  },
+  "207 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/body-parser"
+  },
+  "208 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/accepts"
+  },
+  "209 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@jest%2Fcore"
+  },
+  "210 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/debug"
+  },
+  "211 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/cookie-signature"
+  },
+  "212 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/accepts/1.3.8",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "accepts",
+      "rawSpec": "~1.3.8"
+    }
+  },
+  "213 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "214 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "size": 5403,
+    "status": "started"
+  },
+  "215 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/content-type/1.0.4",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "content-type",
+      "rawSpec": "~1.0.4"
+    }
+  },
+  "216 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-type/1.0.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "217 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/2.6.9",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "debug",
+      "rawSpec": "2.6.9"
+    }
+  },
+  "218 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "219 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/3.2.7",
+    "wanted": {
+      "dependentId": "/nodemon/2.0.15",
+      "name": "debug",
+      "rawSpec": "^3.2.7"
+    }
+  },
+  "220 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/3.2.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "221 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "222 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/content-type/1.0.4",
+    "size": 4655,
+    "status": "started"
+  },
+  "223 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vary/1.1.2",
+    "wanted": {
+      "dependentId": "/cors/2.8.5",
+      "name": "vary",
+      "rawSpec": "^1"
+    }
+  },
+  "224 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vary/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "225 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vary/1.1.2",
+    "wanted": {
+      "dependentId": "/express/4.17.3",
+      "name": "vary",
+      "rawSpec": "~1.1.2"
+    }
+  },
+  "226 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "size": 16514,
+    "status": "started"
+  },
+  "227 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/content-type/1.0.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "228 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "229 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/vary/1.1.2",
+    "size": 3772,
+    "status": "started"
+  },
+  "230 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vary/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "231 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/braces/3.0.2",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "braces",
+      "rawSpec": "~3.0.2"
+    }
+  },
+  "232 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/braces/3.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "233 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/anymatch/3.1.2",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "anymatch",
+      "rawSpec": "~3.1.2"
+    }
+  },
+  "234 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/anymatch/3.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "235 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/superagent/6.1.0",
+    "wanted": {
+      "dependentId": "/supertest/6.1.6",
+      "name": "superagent",
+      "rawSpec": "^6.1.0"
+    }
+  },
+  "236 debug pnpm:deprecation": {
+    "deprecated": "Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.",
+    "depth": 1,
+    "pkgId": "registry.npmjs.org/superagent/6.1.0",
+    "pkgName": "superagent",
+    "pkgVersion": "6.1.0",
+    "prefix": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server"
+  },
+  "237 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/superagent/6.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "238 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@jest/core/26.6.3",
+    "wanted": {
+      "dependentId": "/jest/26.6.3",
+      "name": "@jest/core",
+      "rawSpec": "^26.6.3"
+    }
+  },
+  "239 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@jest/core/26.6.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "240 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/brace-expansion/1.1.11",
+    "wanted": {
+      "dependentId": "/minimatch/3.1.2",
+      "name": "brace-expansion",
+      "rawSpec": "^1.1.7"
+    }
+  },
+  "241 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "242 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/braces/3.0.2",
+    "size": 15637,
+    "status": "started"
+  },
+  "243 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/readdirp/3.6.0",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "readdirp",
+      "rawSpec": "~3.6.0"
+    }
+  },
+  "244 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readdirp/3.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "245 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/anymatch/3.1.2",
+    "size": 3660,
+    "status": "started"
+  },
+  "246 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-glob/4.0.3",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "is-glob",
+      "rawSpec": "~4.0.1"
+    }
+  },
+  "247 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-glob/4.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "248 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/superagent/6.1.0",
+    "size": 214538,
+    "status": "started"
+  },
+  "249 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "size": 4239,
+    "status": "started"
+  },
+  "250 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/braces/3.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "251 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/anymatch/3.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "252 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/brace-expansion/1.1.11",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "253 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/readdirp/3.6.0",
+    "size": 7556,
+    "status": "started"
+  },
+  "254 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-glob/4.0.3",
+    "size": 4255,
+    "status": "started"
+  },
+  "255 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nopt/1.0.10",
+    "wanted": {
+      "dependentId": "/touch/3.1.0",
+      "name": "nopt",
+      "rawSpec": "~1.0.10"
+    }
+  },
+  "256 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nopt/1.0.10",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "257 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@jest/core/26.6.3",
+    "size": 36038,
+    "status": "started"
+  },
+  "258 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-glob/4.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "259 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/configstore/5.0.1",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "configstore",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "260 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/configstore/5.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "261 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/nopt/1.0.10",
+    "size": 10240,
+    "status": "started"
+  },
+  "262 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "chalk",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "263 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "264 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/configstore/5.0.1",
+    "size": 3402,
+    "status": "started"
+  },
+  "265 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-lazy/2.1.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "import-lazy",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "266 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-lazy/2.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "267 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "size": 11577,
+    "status": "started"
+  },
+  "268 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-binary-path/2.1.0",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "is-binary-path",
+      "rawSpec": "~2.1.0"
+    }
+  },
+  "269 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-binary-path/2.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "270 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/normalize-path/3.0.0",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "normalize-path",
+      "rawSpec": "~3.0.0"
+    }
+  },
+  "271 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/normalize-path/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "272 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@jest/core/26.6.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "273 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/configstore/5.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "274 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readdirp/3.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "275 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-yarn/2.1.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "has-yarn",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "276 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-yarn/2.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "277 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "278 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nopt/1.0.10",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "279 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-binary-path/2.1.0",
+    "size": 1619,
+    "status": "started"
+  },
+  "280 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-installed-globally/0.4.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "is-installed-globally",
+      "rawSpec": "^0.4.0"
+    }
+  },
+  "281 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-installed-globally/0.4.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "282 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.6",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "semver",
+      "rawSpec": "^7.3.4"
+    }
+  },
+  "283 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "284 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-binary-path/2.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "285 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/normalize-path/3.0.0",
+    "size": 3566,
+    "status": "started"
+  },
+  "286 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/normalize-path/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "287 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-yarn-global/0.3.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "is-yarn-global",
+      "rawSpec": "^0.3.0"
+    }
+  },
+  "288 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-yarn-global/0.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "289 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-npm/5.0.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "is-npm",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "290 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-npm/5.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "291 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/has-yarn/2.1.0",
+    "size": 1883,
+    "status": "started"
+  },
+  "292 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/latest-version/5.1.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "latest-version",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "293 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/latest-version/5.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "294 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-installed-globally/0.4.0",
+    "size": 1748,
+    "status": "started"
+  },
+  "295 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/semver/7.3.6",
+    "size": 24984,
+    "status": "started"
+  },
+  "296 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-yarn-global/0.3.0",
+    "size": 1575,
+    "status": "started"
+  },
+  "297 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-ci/2.0.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "is-ci",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "298 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-ci/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "299 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver-diff/3.1.1",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "semver-diff",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "300 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver-diff/3.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "301 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-yarn-global/0.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "302 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-npm/5.0.0",
+    "size": 2093,
+    "status": "started"
+  },
+  "303 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/latest-version/5.1.0",
+    "size": 2055,
+    "status": "started"
+  },
+  "304 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-npm/5.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "305 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/latest-version/5.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "306 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-ci/2.0.0",
+    "size": 2097,
+    "status": "started"
+  },
+  "307 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/xdg-basedir/4.0.0",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "xdg-basedir",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "308 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/xdg-basedir/4.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "309 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/semver-diff/3.1.1",
+    "size": 2233,
+    "status": "started"
+  },
+  "310 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-ci/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "311 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-yarn/2.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "312 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-installed-globally/0.4.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "313 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/pupa/2.1.1",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "pupa",
+      "rawSpec": "^2.1.1"
+    }
+  },
+  "314 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pupa/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "315 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "debug",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "316 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "317 warn pnpm:install-check": {
+    "message": "Unsupported platform for registry.npmjs.org/fsevents/2.3.2: wanted {\"cpu\":[\"any\"],\"os\":[\"darwin\"]} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})",
+    "prefix": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server"
+  },
+  "318 debug pnpm:skipped-optional-dependency": {
+    "details": "Error: Unsupported platform for registry.npmjs.org/fsevents/2.3.2: wanted {\"cpu\":[\"any\"],\"os\":[\"darwin\"]} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})",
+    "package": {
+      "id": "registry.npmjs.org/fsevents/2.3.2",
+      "name": "fsevents",
+      "version": "2.3.2"
+    },
+    "prefix": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "reason": "unsupported_platform"
+  },
+  "319 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fsevents/2.3.2",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "fsevents",
+      "rawSpec": "~2.3.2"
+    }
+  },
+  "320 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fsevents/2.3.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "321 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/xdg-basedir/4.0.0",
+    "size": 2292,
+    "status": "started"
+  },
+  "322 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/superagent/6.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "323 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/xdg-basedir/4.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "324 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver-diff/3.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "325 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/pupa/2.1.1",
+    "size": 2372,
+    "status": "started"
+  },
+  "326 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/methods/1.1.2",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "methods",
+      "rawSpec": "^1.1.2"
+    }
+  },
+  "327 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pupa/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "328 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "size": 13252,
+    "status": "started"
+  },
+  "329 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/qs/6.10.3",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "qs",
+      "rawSpec": "^6.9.4"
+    }
+  },
+  "330 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.10.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "331 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "332 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ms/2.1.3",
+    "wanted": {
+      "dependentId": "/debug/3.2.7",
+      "name": "ms",
+      "rawSpec": "^2.1.1"
+    }
+  },
+  "333 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "334 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.6",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "semver",
+      "rawSpec": "^7.3.2"
+    }
+  },
+  "335 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "336 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookiejar/2.1.3",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "cookiejar",
+      "rawSpec": "^2.1.2"
+    }
+  },
+  "337 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookiejar/2.1.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "338 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/qs/6.10.3",
+    "size": 49727,
+    "status": "started"
+  },
+  "339 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-flag/3.0.0",
+    "wanted": {
+      "dependentId": "/supports-color/5.5.0",
+      "name": "has-flag",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "340 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "341 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-safe-stringify/2.1.1",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "fast-safe-stringify",
+      "rawSpec": "^2.0.7"
+    }
+  },
+  "342 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-safe-stringify/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "343 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ms/2.1.3",
+    "size": 2967,
+    "status": "started"
+  },
+  "344 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "345 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fast-safe-stringify/2.1.1",
+    "size": 7896,
+    "status": "started"
+  },
+  "346 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/concat-map/0.0.1",
+    "wanted": {
+      "dependentId": "/brace-expansion/1.1.11",
+      "name": "concat-map",
+      "rawSpec": "0.0.1"
+    }
+  },
+  "347 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "348 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-safe-stringify/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "349 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/has-flag/3.0.0",
+    "size": 1751,
+    "status": "started"
+  },
+  "350 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/form-data/3.0.1",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "form-data",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "351 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/form-data/3.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "352 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "353 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "size": 2263,
+    "status": "started"
+  },
+  "354 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/component-emitter/1.3.0",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "component-emitter",
+      "rawSpec": "^1.3.0"
+    }
+  },
+  "355 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/component-emitter/1.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "356 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/concat-map/0.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "357 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/qs/6.10.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "358 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/import-lazy/2.1.0",
+    "size": 2293,
+    "status": "started"
+  },
+  "359 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cookiejar/2.1.3",
+    "size": 4125,
+    "status": "started"
+  },
+  "360 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-lazy/2.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "361 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/readable-stream/3.6.0",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "readable-stream",
+      "rawSpec": "^3.6.0"
+    }
+  },
+  "362 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/3.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "363 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookiejar/2.1.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "364 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/formidable/1.2.6",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "formidable",
+      "rawSpec": "^1.2.2"
+    }
+  },
+  "365 debug pnpm:deprecation": {
+    "deprecated": "Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau",
+    "depth": 2,
+    "pkgId": "registry.npmjs.org/formidable/1.2.6",
+    "pkgName": "formidable",
+    "pkgVersion": "1.2.6",
+    "prefix": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server"
+  },
+  "366 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/formidable/1.2.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "367 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/component-emitter/1.3.0",
+    "size": 3102,
+    "status": "started"
+  },
+  "368 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/form-data/3.0.1",
+    "size": 10369,
+    "status": "started"
+  },
+  "369 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/abbrev/1.1.1",
+    "wanted": {
+      "dependentId": "/nopt/1.0.10",
+      "name": "abbrev",
+      "rawSpec": "1"
+    }
+  },
+  "370 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/abbrev/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "371 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/component-emitter/1.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "372 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/readable-stream/3.6.0",
+    "size": 33259,
+    "status": "started"
+  },
+  "373 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mime/2.6.0",
+    "wanted": {
+      "dependentId": "/superagent/6.1.0",
+      "name": "mime",
+      "rawSpec": "^2.4.6"
+    }
+  },
+  "374 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime/2.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "375 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ms/2.1.2",
+    "wanted": {
+      "dependentId": "/debug/4.3.4",
+      "name": "ms",
+      "rawSpec": "2.1.2"
+    }
+  },
+  "376 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "377 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/formidable/1.2.6",
+    "size": 13632,
+    "status": "started"
+  },
+  "378 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/abbrev/1.1.1",
+    "size": 2301,
+    "status": "started"
+  },
+  "379 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/balanced-match/1.0.2",
+    "wanted": {
+      "dependentId": "/brace-expansion/1.1.11",
+      "name": "balanced-match",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "380 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "381 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/asynckit/0.4.0",
+    "wanted": {
+      "dependentId": "/form-data/3.0.1",
+      "name": "asynckit",
+      "rawSpec": "^0.4.0"
+    }
+  },
+  "382 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/asynckit/0.4.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "383 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/abbrev/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "384 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/formidable/1.2.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "385 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/readable-stream/3.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "386 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "/readable-stream/3.6.0",
+      "name": "inherits",
+      "rawSpec": "^2.0.3"
+    }
+  },
+  "387 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "388 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/asynckit/0.4.0",
+    "size": 8111,
+    "status": "started"
+  },
+  "389 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "size": 2668,
+    "status": "started"
+  },
+  "390 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/balanced-match/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "391 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/asynckit/0.4.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "392 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ms/2.1.2",
+    "size": 3017,
+    "status": "started"
+  },
+  "393 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "size": 2030,
+    "status": "started"
+  },
+  "394 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/util-deprecate/1.0.2",
+    "wanted": {
+      "dependentId": "/readable-stream/3.6.0",
+      "name": "util-deprecate",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "395 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "396 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ms/2.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "397 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/form-data/3.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "398 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/inherits/2.0.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "399 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mime-types/2.1.35",
+    "wanted": {
+      "dependentId": "/form-data/3.0.1",
+      "name": "mime-types",
+      "rawSpec": "^2.1.12"
+    }
+  },
+  "400 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime-types/2.1.35",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "401 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/combined-stream/1.0.8",
+    "wanted": {
+      "dependentId": "/form-data/3.0.1",
+      "name": "combined-stream",
+      "rawSpec": "^1.0.8"
+    }
+  },
+  "402 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/combined-stream/1.0.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "403 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string_decoder/1.3.0",
+    "wanted": {
+      "dependentId": "/readable-stream/3.6.0",
+      "name": "string_decoder",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "404 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/1.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "405 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/safe-buffer/5.2.1",
+    "wanted": {
+      "dependentId": "/string_decoder/1.3.0",
+      "name": "safe-buffer",
+      "rawSpec": "~5.2.0"
+    }
+  },
+  "406 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/side-channel/1.0.4",
+    "wanted": {
+      "dependentId": "/qs/6.10.3",
+      "name": "side-channel",
+      "rawSpec": "^1.0.4"
+    }
+  },
+  "407 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/side-channel/1.0.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "408 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "size": 2246,
+    "status": "started"
+  },
+  "409 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mime-types/2.1.35",
+    "size": 5591,
+    "status": "started"
+  },
+  "410 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/combined-stream/1.0.8",
+    "size": 4068,
+    "status": "started"
+  },
+  "411 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/util-deprecate/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "412 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime-types/2.1.35",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "413 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/combined-stream/1.0.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "414 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/side-channel/1.0.4",
+    "size": 5638,
+    "status": "started"
+  },
+  "415 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/delayed-stream/1.0.0",
+    "wanted": {
+      "dependentId": "/combined-stream/1.0.8",
+      "name": "delayed-stream",
+      "rawSpec": "~1.0.0"
+    }
+  },
+  "416 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/delayed-stream/1.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "417 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/call-bind/1.0.2",
+    "wanted": {
+      "dependentId": "/side-channel/1.0.4",
+      "name": "call-bind",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "418 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/call-bind/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "419 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/delayed-stream/1.0.0",
+    "size": 3464,
+    "status": "started"
+  },
+  "420 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mime-db/1.52.0",
+    "wanted": {
+      "dependentId": "/mime-types/2.1.35",
+      "name": "mime-db",
+      "rawSpec": "1.52.0"
+    }
+  },
+  "421 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime-db/1.52.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "422 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/delayed-stream/1.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "423 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/string_decoder/1.3.0",
+    "size": 4622,
+    "status": "started"
+  },
+  "424 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string_decoder/1.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "425 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mime/2.6.0",
+    "size": 18724,
+    "status": "started"
+  },
+  "426 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-intrinsic/1.1.1",
+    "wanted": {
+      "dependentId": "/side-channel/1.0.4",
+      "name": "get-intrinsic",
+      "rawSpec": "^1.0.2"
+    }
+  },
+  "427 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-intrinsic/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "428 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/call-bind/1.0.2",
+    "size": 5365,
+    "status": "started"
+  },
+  "429 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mime-db/1.52.0",
+    "size": 26992,
+    "status": "started"
+  },
+  "430 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/side-channel/1.0.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "431 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/get-intrinsic/1.1.1",
+    "size": 9903,
+    "status": "started"
+  },
+  "432 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/call-bind/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "433 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime/2.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "434 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mime-db/1.52.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "435 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/object-inspect/1.12.0",
+    "wanted": {
+      "dependentId": "/side-channel/1.0.4",
+      "name": "object-inspect",
+      "rawSpec": "^1.9.0"
+    }
+  },
+  "436 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/object-inspect/1.12.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "437 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-intrinsic/1.1.1",
+    "wanted": {
+      "dependentId": "/call-bind/1.0.2",
+      "name": "get-intrinsic",
+      "rawSpec": "^1.0.2"
+    }
+  },
+  "438 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-intrinsic/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "439 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/object-inspect/1.12.0",
+    "size": 24697,
+    "status": "started"
+  },
+  "440 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/function-bind/1.1.1",
+    "wanted": {
+      "dependentId": "/call-bind/1.0.2",
+      "name": "function-bind",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "441 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/function-bind/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "442 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/function-bind/1.1.1",
+    "wanted": {
+      "dependentId": "/get-intrinsic/1.1.1",
+      "name": "function-bind",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "443 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has/1.0.3",
+    "wanted": {
+      "dependentId": "/get-intrinsic/1.1.1",
+      "name": "has",
+      "rawSpec": "^1.0.3"
+    }
+  },
+  "444 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has/1.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "445 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/function-bind/1.1.1",
+    "size": 6301,
+    "status": "started"
+  },
+  "446 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/has/1.0.3",
+    "size": 1553,
+    "status": "started"
+  },
+  "447 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has/1.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "448 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/function-bind/1.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "449 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-symbols/1.0.3",
+    "wanted": {
+      "dependentId": "/get-intrinsic/1.1.1",
+      "name": "has-symbols",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "450 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-symbols/1.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "451 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/function-bind/1.1.1",
+    "wanted": {
+      "dependentId": "/has/1.0.3",
+      "name": "function-bind",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "452 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/has-symbols/1.0.3",
+    "size": 7067,
+    "status": "started"
+  },
+  "453 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/object-inspect/1.12.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "454 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-symbols/1.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "455 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "http://registry.npmjs.org/jest-cli"
+  },
+  "456 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "http://registry.npmjs.org/body-parser"
+  },
+  "457 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/cookie-signature"
+  },
+  "458 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
+  },
+  "459 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/glob-parent"
+  },
+  "460 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/boxen"
+  },
+  "461 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/glob-parent/5.1.2",
+    "wanted": {
+      "dependentId": "/chokidar/3.5.3",
+      "name": "glob-parent",
+      "rawSpec": "~5.1.2"
+    }
+  },
+  "462 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob-parent/5.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "463 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/normalize-path/3.0.0",
+    "wanted": {
+      "dependentId": "/anymatch/3.1.2",
+      "name": "normalize-path",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "464 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-glob/4.0.3",
+    "wanted": {
+      "dependentId": "/glob-parent/5.1.2",
+      "name": "is-glob",
+      "rawSpec": "^4.0.1"
+    }
+  },
+  "465 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/glob-parent/5.1.2",
+    "size": 4853,
+    "status": "started"
+  },
+  "466 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob-parent/5.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "467 debug pnpm:fetching-progress": {
+    "attempt": 2,
+    "packageId": "registry.npmjs.org/debug/3.2.7",
+    "size": 16872,
+    "status": "started"
+  },
+  "468 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/boxen/5.1.2",
+    "wanted": {
+      "dependentId": "/update-notifier/5.1.0",
+      "name": "boxen",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "469 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/boxen/5.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "470 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/xdg-basedir/4.0.0",
+    "wanted": {
+      "dependentId": "/configstore/5.0.1",
+      "name": "xdg-basedir",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "471 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/supports-color/7.2.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "supports-color",
+      "rawSpec": "^7.1.0"
+    }
+  },
+  "472 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "473 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/3.2.7",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "474 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/make-dir/3.1.0",
+    "wanted": {
+      "dependentId": "/configstore/5.0.1",
+      "name": "make-dir",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "475 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/make-dir/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "476 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-extglob/2.1.1",
+    "wanted": {
+      "dependentId": "/is-glob/4.0.3",
+      "name": "is-extglob",
+      "rawSpec": "^2.1.1"
+    }
+  },
+  "477 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-extglob/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "478 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/write-file-atomic/3.0.3",
+    "wanted": {
+      "dependentId": "/configstore/5.0.1",
+      "name": "write-file-atomic",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "479 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/write-file-atomic/3.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "480 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/make-dir/3.1.0",
+    "size": 3793,
+    "status": "started"
+  },
+  "481 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/dot-prop/5.3.0",
+    "wanted": {
+      "dependentId": "/configstore/5.0.1",
+      "name": "dot-prop",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "482 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dot-prop/5.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "483 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/picomatch/2.3.1",
+    "wanted": {
+      "dependentId": "/anymatch/3.1.2",
+      "name": "picomatch",
+      "rawSpec": "^2.0.4"
+    }
+  },
+  "484 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/picomatch/2.3.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "485 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/picomatch/2.3.1",
+    "wanted": {
+      "dependentId": "/readdirp/3.6.0",
+      "name": "picomatch",
+      "rawSpec": "^2.2.1"
+    }
+  },
+  "486 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/boxen/5.1.2",
+    "size": 5853,
+    "status": "started"
+  },
+  "487 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "ansi-styles",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "488 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "489 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "size": 3210,
+    "status": "started"
+  },
+  "490 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/supports-color/7.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "491 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/unique-string/2.0.0",
+    "wanted": {
+      "dependentId": "/configstore/5.0.1",
+      "name": "unique-string",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "492 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/unique-string/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "493 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-extglob/2.1.1",
+    "size": 2663,
+    "status": "started"
+  },
+  "494 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/dot-prop/5.3.0",
+    "size": 3267,
+    "status": "started"
+  },
+  "495 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/6.3.0",
+    "wanted": {
+      "dependentId": "/semver-diff/3.1.1",
+      "name": "semver",
+      "rawSpec": "^6.3.0"
+    }
+  },
+  "496 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/6.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "497 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/picomatch/2.3.1",
+    "size": 24289,
+    "status": "started"
+  },
+  "498 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-extglob/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "499 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/boxen/5.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "500 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dot-prop/5.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "501 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/picomatch/2.3.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "502 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "size": 5849,
+    "status": "started"
+  },
+  "503 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/unique-string/2.0.0",
+    "size": 1581,
+    "status": "started"
+  },
+  "504 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/semver/6.3.0",
+    "size": 18921,
+    "status": "started"
+  },
+  "505 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/6.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "506 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "chalk",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "507 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/unique-string/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "508 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/make-dir/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "509 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/package-json/6.5.0",
+    "wanted": {
+      "dependentId": "/latest-version/5.1.0",
+      "name": "package-json",
+      "rawSpec": "^6.3.0"
+    }
+  },
+  "510 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/package-json/6.5.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "511 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-styles/4.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "512 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lru-cache/7.8.0",
+    "wanted": {
+      "dependentId": "/semver/7.3.6",
+      "name": "lru-cache",
+      "rawSpec": "^7.4.0"
+    }
+  },
+  "513 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lru-cache/7.8.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "514 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/camelcase/6.3.0",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "camelcase",
+      "rawSpec": "^6.2.0"
+    }
+  },
+  "515 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/camelcase/6.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "516 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/package-json/6.5.0",
+    "size": 4522,
+    "status": "started"
+  },
+  "517 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/package-json/6.5.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "518 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/lru-cache/7.8.0",
+    "size": 15047,
+    "status": "started"
+  },
+  "519 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/escape-goat/2.1.1",
+    "wanted": {
+      "dependentId": "/pupa/2.1.1",
+      "name": "escape-goat",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "520 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-goat/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "521 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/camelcase/6.3.0",
+    "size": 3843,
+    "status": "started"
+  },
+  "522 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ci-info/2.0.0",
+    "wanted": {
+      "dependentId": "/is-ci/2.0.0",
+      "name": "ci-info",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "523 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ci-info/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "524 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/camelcase/6.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "525 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-align/3.0.1",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "ansi-align",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "526 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-align/3.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "527 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lru-cache/7.8.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "528 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/escape-goat/2.1.1",
+    "size": 2392,
+    "status": "started"
+  },
+  "529 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/has-flag/4.0.0",
+    "wanted": {
+      "dependentId": "/supports-color/7.2.0",
+      "name": "has-flag",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "530 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "531 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ci-info/2.0.0",
+    "size": 4860,
+    "status": "started"
+  },
+  "532 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-goat/2.1.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "533 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ci-info/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "534 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ansi-align/3.0.1",
+    "size": 3243,
+    "status": "started"
+  },
+  "535 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/widest-line/3.1.0",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "widest-line",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "536 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/widest-line/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "537 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-align/3.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "538 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string-width/4.2.3",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "string-width",
+      "rawSpec": "^4.2.2"
+    }
+  },
+  "539 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string-width/4.2.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "540 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cli-boxes/2.2.1",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "cli-boxes",
+      "rawSpec": "^2.2.1"
+    }
+  },
+  "541 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-boxes/2.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "542 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "wrap-ansi",
+      "rawSpec": "^7.0.0"
+    }
+  },
+  "543 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "544 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "size": 2206,
+    "status": "started"
+  },
+  "545 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/has-flag/4.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "546 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/widest-line/3.1.0",
+    "size": 1917,
+    "status": "started"
+  },
+  "547 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/6.3.0",
+    "wanted": {
+      "dependentId": "/package-json/6.5.0",
+      "name": "semver",
+      "rawSpec": "^6.2.0"
+    }
+  },
+  "548 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/widest-line/3.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "549 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/write-file-atomic/3.0.3",
+    "size": 4794,
+    "status": "started"
+  },
+  "550 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/string-width/4.2.3",
+    "size": 2383,
+    "status": "started"
+  },
+  "551 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/write-file-atomic/3.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "552 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/string-width/4.2.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "553 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "size": 4317,
+    "status": "started"
+  },
+  "554 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cli-boxes/2.2.1",
+    "size": 2577,
+    "status": "started"
+  },
+  "555 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/global-dirs/3.0.0",
+    "wanted": {
+      "dependentId": "/is-installed-globally/0.4.0",
+      "name": "global-dirs",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "556 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/global-dirs/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "557 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cli-boxes/2.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "558 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/wrap-ansi/7.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "559 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/global-dirs/3.0.0",
+    "size": 3086,
+    "status": "started"
+  },
+  "560 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/global-dirs/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "561 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/color-convert/2.0.1",
+    "wanted": {
+      "dependentId": "/ansi-styles/4.3.0",
+      "name": "color-convert",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "562 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "563 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/registry-auth-token/4.2.1",
+    "wanted": {
+      "dependentId": "/package-json/6.5.0",
+      "name": "registry-auth-token",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "564 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/registry-auth-token/4.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "565 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "size": 8996,
+    "status": "started"
+  },
+  "566 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-convert/2.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "567 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/type-fest/0.20.2",
+    "wanted": {
+      "dependentId": "/boxen/5.1.2",
+      "name": "type-fest",
+      "rawSpec": "^0.20.2"
+    }
+  },
+  "568 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-fest/0.20.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "569 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string-width/4.2.3",
+    "wanted": {
+      "dependentId": "/ansi-align/3.0.1",
+      "name": "string-width",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "570 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string-width/4.2.3",
+    "wanted": {
+      "dependentId": "/widest-line/3.1.0",
+      "name": "string-width",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "571 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "/wrap-ansi/7.0.0",
+      "name": "ansi-styles",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "572 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/string-width/4.2.3",
+    "wanted": {
+      "dependentId": "/wrap-ansi/7.0.0",
+      "name": "string-width",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "573 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/registry-auth-token/4.2.1",
+    "size": 4435,
+    "status": "started"
+  },
+  "574 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/type-fest/0.20.2",
+    "size": 37225,
+    "status": "started"
+  },
+  "575 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/registry-auth-token/4.2.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "576 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/got/9.6.0",
+    "wanted": {
+      "dependentId": "/package-json/6.5.0",
+      "name": "got",
+      "rawSpec": "^9.6.0"
+    }
+  },
+  "577 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/got/9.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "578 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/color-name/1.1.4",
+    "wanted": {
+      "dependentId": "/color-convert/2.0.1",
+      "name": "color-name",
+      "rawSpec": "~1.1.4"
+    }
+  },
+  "579 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "580 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/got/9.6.0",
+    "size": 24649,
+    "status": "started"
+  },
+  "581 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "size": 2868,
+    "status": "started"
+  },
+  "582 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/emoji-regex/8.0.0",
+    "wanted": {
+      "dependentId": "/string-width/4.2.3",
+      "name": "emoji-regex",
+      "rawSpec": "^8.0.0"
+    }
+  },
+  "583 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/emoji-regex/8.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "584 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "wanted": {
+      "dependentId": "/string-width/4.2.3",
+      "name": "is-fullwidth-code-point",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "585 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "586 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/color-name/1.1.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "587 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/emoji-regex/8.0.0",
+    "size": 6664,
+    "status": "started"
+  },
+  "588 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "size": 2169,
+    "status": "started"
+  },
+  "589 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/type-fest/0.20.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "590 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/got/9.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "591 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-fullwidth-code-point/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "592 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/emoji-regex/8.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "593 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/string-width/4.2.3",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "594 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "595 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/wrap-ansi/7.0.0",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "596 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "size": 2041,
+    "status": "started"
+  },
+  "597 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "598 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-regex/5.0.1",
+    "wanted": {
+      "dependentId": "/strip-ansi/6.0.1",
+      "name": "ansi-regex",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "599 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-regex/5.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "600 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ansi-regex/5.0.1",
+    "size": 2768,
+    "status": "started"
+  },
+  "601 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-regex/5.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "602 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/binary-extensions"
+  },
+  "603 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/fill-range"
+  },
+  "604 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/graceful-fs"
+  },
+  "605 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/is-path-inside"
+  },
+  "606 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/registry-url"
+  },
+  "607 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/binary-extensions/2.2.0",
+    "wanted": {
+      "dependentId": "/is-binary-path/2.1.0",
+      "name": "binary-extensions",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "608 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/binary-extensions/2.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "609 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/binary-extensions/2.2.0",
+    "size": 2561,
+    "status": "started"
+  },
+  "610 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/binary-extensions/2.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "611 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fill-range/7.0.1",
+    "wanted": {
+      "dependentId": "/braces/3.0.2",
+      "name": "fill-range",
+      "rawSpec": "^7.0.1"
+    }
+  },
+  "612 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fill-range/7.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "613 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fill-range/7.0.1",
+    "size": 5567,
+    "status": "started"
+  },
+  "614 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fill-range/7.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "615 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/configstore/5.0.1",
+      "name": "graceful-fs",
+      "rawSpec": "^4.1.2"
+    }
+  },
+  "616 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "617 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/6.3.0",
+    "wanted": {
+      "dependentId": "/make-dir/3.1.0",
+      "name": "semver",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "618 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "size": 9770,
+    "status": "started"
+  },
+  "619 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-path-inside/3.0.3",
+    "wanted": {
+      "dependentId": "/is-installed-globally/0.4.0",
+      "name": "is-path-inside",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "620 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-path-inside/3.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "621 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/to-regex-range/5.0.1",
+    "wanted": {
+      "dependentId": "/fill-range/7.0.1",
+      "name": "to-regex-range",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "622 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/to-regex-range/5.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "623 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-path-inside/3.0.3",
+    "size": 1996,
+    "status": "started"
+  },
+  "624 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-path-inside/3.0.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "625 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-typedarray/1.0.0",
+    "wanted": {
+      "dependentId": "/write-file-atomic/3.0.3",
+      "name": "is-typedarray",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "626 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-typedarray/1.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "627 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/imurmurhash/0.1.4",
+    "wanted": {
+      "dependentId": "/write-file-atomic/3.0.3",
+      "name": "imurmurhash",
+      "rawSpec": "^0.1.4"
+    }
+  },
+  "628 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/imurmurhash/0.1.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "629 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ini/2.0.0",
+    "wanted": {
+      "dependentId": "/global-dirs/3.0.0",
+      "name": "ini",
+      "rawSpec": "2.0.0"
+    }
+  },
+  "630 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ini/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "631 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "632 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-typedarray/1.0.0",
+    "size": 1881,
+    "status": "started"
+  },
+  "633 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-typedarray/1.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "634 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/imurmurhash/0.1.4",
+    "size": 4312,
+    "status": "started"
+  },
+  "635 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ini/2.0.0",
+    "size": 4081,
+    "status": "started"
+  },
+  "636 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/imurmurhash/0.1.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "637 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ini/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "638 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-number/7.0.0",
+    "wanted": {
+      "dependentId": "/to-regex-range/5.0.1",
+      "name": "is-number",
+      "rawSpec": "^7.0.0"
+    }
+  },
+  "639 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-number/7.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "640 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-number/7.0.0",
+    "size": 3730,
+    "status": "started"
+  },
+  "641 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-number/7.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "642 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typedarray-to-buffer/3.1.5",
+    "wanted": {
+      "dependentId": "/write-file-atomic/3.0.3",
+      "name": "typedarray-to-buffer",
+      "rawSpec": "^3.1.5"
+    }
+  },
+  "643 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typedarray-to-buffer/3.1.5",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "644 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/typedarray-to-buffer/3.1.5",
+    "size": 3757,
+    "status": "started"
+  },
+  "645 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typedarray-to-buffer/3.1.5",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "646 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/registry-url/5.1.0",
+    "wanted": {
+      "dependentId": "/package-json/6.5.0",
+      "name": "registry-url",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "647 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/registry-url/5.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "648 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rc/1.2.8",
+    "wanted": {
+      "dependentId": "/registry-auth-token/4.2.1",
+      "name": "rc",
+      "rawSpec": "^1.2.8"
+    }
+  },
+  "649 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rc/1.2.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "650 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@szmarczak/http-timer/1.1.2",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "@szmarczak/http-timer",
+      "rawSpec": "^1.1.2"
+    }
+  },
+  "651 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@szmarczak/http-timer/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "652 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/decompress-response/3.3.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "decompress-response",
+      "rawSpec": "^3.3.0"
+    }
+  },
+  "653 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/decompress-response/3.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "654 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/rc/1.2.8",
+    "size": 7148,
+    "status": "started"
+  },
+  "655 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mimic-response/1.0.1",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "mimic-response",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "656 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mimic-response/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "657 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/duplexer3/0.1.4",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "duplexer3",
+      "rawSpec": "^0.1.4"
+    }
+  },
+  "658 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/duplexer3/0.1.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "659 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-stream/4.1.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "get-stream",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "660 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/4.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "661 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/decompress-response/3.3.0",
+    "size": 1897,
+    "status": "started"
+  },
+  "662 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/decompress-response/3.3.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "663 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rc/1.2.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "664 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mimic-response/1.0.1",
+    "size": 1894,
+    "status": "started"
+  },
+  "665 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/registry-url/5.1.0",
+    "size": 1977,
+    "status": "started"
+  },
+  "666 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/registry-url/5.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "667 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mimic-response/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "668 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@szmarczak/http-timer/1.1.2",
+    "size": 2636,
+    "status": "started"
+  },
+  "669 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rc/1.2.8",
+    "wanted": {
+      "dependentId": "/registry-url/5.1.0",
+      "name": "rc",
+      "rawSpec": "^1.2.8"
+    }
+  },
+  "670 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@szmarczak/http-timer/1.1.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "671 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/get-stream/4.1.0",
+    "size": 3438,
+    "status": "started"
+  },
+  "672 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/url-parse-lax/3.0.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "url-parse-lax",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "673 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/url-parse-lax/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "674 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ini/1.3.8",
+    "wanted": {
+      "dependentId": "/rc/1.2.8",
+      "name": "ini",
+      "rawSpec": "~1.3.0"
+    }
+  },
+  "675 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ini/1.3.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "676 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/duplexer3/0.1.4",
+    "size": 2816,
+    "status": "started"
+  },
+  "677 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/duplexer3/0.1.4",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "678 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/4.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "679 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/p-cancelable/1.1.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "p-cancelable",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "680 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-cancelable/1.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "681 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/url-parse-lax/3.0.0",
+    "size": 1993,
+    "status": "started"
+  },
+  "682 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/ini/1.3.8",
+    "size": 3998,
+    "status": "started"
+  },
+  "683 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/to-readable-stream/1.0.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "to-readable-stream",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "684 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/to-readable-stream/1.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "685 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/url-parse-lax/3.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "686 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ini/1.3.8",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "687 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/p-cancelable/1.1.0",
+    "size": 4025,
+    "status": "started"
+  },
+  "688 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/to-readable-stream/1.0.0",
+    "size": 1598,
+    "status": "started"
+  },
+  "689 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/to-readable-stream/1.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "690 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-cancelable/1.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "691 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/deep-extend/0.6.0",
+    "wanted": {
+      "dependentId": "/rc/1.2.8",
+      "name": "deep-extend",
+      "rawSpec": "^0.6.0"
+    }
+  },
+  "692 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/deep-extend/0.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "693 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/deep-extend/0.6.0",
+    "size": 3627,
+    "status": "started"
+  },
+  "694 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-json-comments/2.0.1",
+    "wanted": {
+      "dependentId": "/rc/1.2.8",
+      "name": "strip-json-comments",
+      "rawSpec": "~2.0.1"
+    }
+  },
+  "695 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-json-comments/2.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "696 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimist/1.2.6",
+    "wanted": {
+      "dependentId": "/rc/1.2.8",
+      "name": "minimist",
+      "rawSpec": "^1.2.0"
+    }
+  },
+  "697 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "698 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/deep-extend/0.6.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "699 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/strip-json-comments/2.0.1",
+    "size": 2270,
+    "status": "started"
+  },
+  "700 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "size": 8363,
+    "status": "started"
+  },
+  "701 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-json-comments/2.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "702 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "703 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/signal-exit"
+  },
+  "704 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/is-obj"
+  },
+  "705 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/crypto-random-string"
+  },
+  "706 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz"
+  },
+  "707 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://registry.npmjs.org/lowercase-keys"
+  },
+  "708 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/cacheable-request"
+  },
+  "709 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@sindresorhus%2Fis"
+  },
+  "710 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-obj/2.0.0",
+    "wanted": {
+      "dependentId": "/dot-prop/5.3.0",
+      "name": "is-obj",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "711 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-obj/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "712 debug pnpm:fetching-progress": {
+    "attempt": 2,
+    "packageId": "registry.npmjs.org/to-regex-range/5.0.1",
+    "size": 7479,
+    "status": "started"
+  },
+  "713 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/to-regex-range/5.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "714 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/is-obj/2.0.0",
+    "size": 1597,
+    "status": "started"
+  },
+  "715 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-obj/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "716 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lowercase-keys/1.0.1",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "lowercase-keys",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "717 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lowercase-keys/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "718 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/lowercase-keys/1.0.1",
+    "size": 1477,
+    "status": "started"
+  },
+  "719 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lowercase-keys/1.0.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "720 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cacheable-request/6.1.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "cacheable-request",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "721 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cacheable-request/6.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "722 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cacheable-request/6.1.0",
+    "size": 5906,
+    "status": "started"
+  },
+  "723 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cacheable-request/6.1.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "724 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sindresorhus/is/0.14.0",
+    "wanted": {
+      "dependentId": "/got/9.6.0",
+      "name": "@sindresorhus/is",
+      "rawSpec": "^0.14.0"
+    }
+  },
+  "725 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sindresorhus/is/0.14.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "726 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mimic-response/1.0.1",
+    "wanted": {
+      "dependentId": "/decompress-response/3.3.0",
+      "name": "mimic-response",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "727 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/get-stream/5.2.0",
+    "wanted": {
+      "dependentId": "/cacheable-request/6.1.0",
+      "name": "get-stream",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "728 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/5.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "729 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lowercase-keys/2.0.0",
+    "wanted": {
+      "dependentId": "/cacheable-request/6.1.0",
+      "name": "lowercase-keys",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "730 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lowercase-keys/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "731 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/get-stream/5.2.0",
+    "size": 4356,
+    "status": "started"
+  },
+  "732 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@sindresorhus/is/0.14.0",
+    "size": 10643,
+    "status": "started"
+  },
+  "733 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/get-stream/5.2.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "734 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sindresorhus/is/0.14.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "735 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/clone-response/1.0.2",
+    "wanted": {
+      "dependentId": "/cacheable-request/6.1.0",
+      "name": "clone-response",
+      "rawSpec": "^1.0.2"
+    }
+  },
+  "736 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clone-response/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "737 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prepend-http/2.0.0",
+    "wanted": {
+      "dependentId": "/url-parse-lax/3.0.0",
+      "name": "prepend-http",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "738 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prepend-http/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "739 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/lowercase-keys/2.0.0",
+    "size": 1568,
+    "status": "started"
+  },
+  "740 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lowercase-keys/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "741 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/defer-to-connect/1.1.3",
+    "wanted": {
+      "dependentId": "/@szmarczak/http-timer/1.1.2",
+      "name": "defer-to-connect",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "742 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/defer-to-connect/1.1.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "743 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/clone-response/1.0.2",
+    "size": 2279,
+    "status": "started"
+  },
+  "744 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clone-response/1.0.2",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "745 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prepend-http/2.0.0",
+    "size": 1688,
+    "status": "started"
+  },
+  "746 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prepend-http/2.0.0",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "747 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/defer-to-connect/1.1.3",
+    "size": 2461,
+    "status": "started"
+  },
+  "748 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/defer-to-connect/1.1.3",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "749 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/normalize-url/4.5.1",
+    "wanted": {
+      "dependentId": "/cacheable-request/6.1.0",
+      "name": "normalize-url",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "750 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/normalize-url/4.5.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "resolved"
+  },
+  "751 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/normalize-url/4.5.1",
+    "size": 5281,
+    "status": "started"
+  },
+  "752 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/normalize-url/4.5.1",
+    "requester": "C:\\Users\\Luis Marsiglia\\Desktop\\workspace\\js\\react-vite-express-setup\\packages\\server",
+    "status": "fetched"
+  },
+  "753 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": "1.19.2",
+      "name": "body-parser",
+      "type": "version"
+    },
+    "pkgsStack": [
+      {
+        "id": "registry.npmjs.org/express/4.17.3",
+        "name": "express",
+        "version": "4.17.3"
+      }
+    ],
+    "err": {
+      "name": "pnpm",
+      "message": "GET http://registry.npmjs.org/body-parser: request to http://registry.npmjs.org/body-parser failed, reason: connect ETIMEDOUT 104.16.17.35:80",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET http://registry.npmjs.org/body-parser: request to http://registry.npmjs.org/body-parser failed, reason: connect ETIMEDOUT 104.16.17.35:80\n    at RetryOperation._fn (C:\\Users\\Luis Marsiglia\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85558:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

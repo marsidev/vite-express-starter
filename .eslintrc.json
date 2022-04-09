@@ -1,0 +1,35 @@
+{
+  "ignorePatterns": [
+    "node_modules/",
+    "packages/server/node_modules/",
+    "packages/client/node_modules/",
+    "packages/client/build/"
+  ],
+  "extends": [
+    "standard"
+  ],
+  "env": {
+    "es2021": true
+  },
+  "plugins": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    },
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "space-before-function-paren": "off",
+    "no-use-before-define": "off",
+    "no-return-assign": "off",
+    "spaced-comment": "warn",
+    "no-extend-native": "off",
+    "no-unused-vars": "warn",
+    "quotes": [
+      "error",
+      "single"
+    ]
+  }
+}
