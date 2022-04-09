@@ -26,7 +26,7 @@
     "start": "pnpm --filter server start",
     "dev": "pnpm run -r --workspace-concurrency 2 --filter server --filter client dev",
     "start:all": "pnpm build && pnpm start",
-    "heroku-prebuild": "npm install -g pnpm"
+    "heroku-prebuild": "npm install -g pnpm && pnpm install"
   },
   "devDependencies": {
     "eslint": "7.32.0",

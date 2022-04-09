@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "vite-express-starter",
+  "builds": [
+    {
+      "src": "packages/server/index.js",
+      "use": "@vercel/node@latest",
+      "config": {
+        "includeFiles": ["packages/server/src/**", "packages/server/node_modules/**"]
+      }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "packages/server/index.js" }]
+}
