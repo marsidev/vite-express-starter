@@ -8,7 +8,7 @@ pnpm start
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 You can start editing the page by modifying `packages/client/src/App.jsx`.
-API routes can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `packages/server/index.js`.
+A sample API route can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `packages/server/src/controllers/hello.js`.
 
 ## Packages
 The following packages are used in this project:
