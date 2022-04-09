@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vite-express-starter
+    env: node
+    buildCommand: pnpm build
+    startCommand: pnpm start
+    pullRequestPreviewsEnabled: true
