@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "preinstall:all": "npx only-allow pnpm",
     "build": "pnpm --filter client build",
     "start": "pnpm --filter server start",
     "dev": "pnpm run -r --workspace-concurrency 2 --filter server --filter client dev",
@@ -37,7 +38,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "5.2.0"
   },
-  "packageManager": "pnpm@7.0.0-rc.2",
+  "packageManager": "pnpm@6.20.0",
   "pnpm": {
     "overrides": {
       "client": "workspace:*",
