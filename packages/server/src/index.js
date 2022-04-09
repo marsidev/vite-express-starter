@@ -11,11 +11,11 @@ app.use(express.json())
 app.use(cors())
 app.use(morgan('dev'))
 
-// serving static files
-app.use(express.static('../client/dist'))
-
 // routing
 app.use('/api/hello', hello)
+
+// serving static files
+app.use(express.static('../client/dist'))
 
 // start server
 const PORT = process.env.PORT || 3001
