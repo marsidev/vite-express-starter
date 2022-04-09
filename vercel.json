@@ -4,14 +4,7 @@
   "builds": [
     {
       "src": "packages/server/src/index.js",
-      "use": "@vercel/node@latest",
-      "config": {
-        "includeFiles": [
-          "packages/server/src/**", 
-          "packages/server/node_modules/**",
-          "packages/client/dist/**"
-        ]
-      }
+      "use": "@vercel/node@latest"
     }
   ],
   "routes": [{ "src": "/(.*)", "dest": "packages/server/src/index.js" }]
