@@ -4,7 +4,7 @@ import cors from 'cors'
 import morgan from 'morgan'
 import hello from '#controllers/hello'
 
-const PORT = 5000
+let PORT = 5000
 const app = express()
 
 // middlewares
@@ -18,6 +18,8 @@ app.use(express.static('../client/dist'))
 // routing
 app.use('/api/hello', hello)
 
-app.listen(PORT, () => console.log(`server running on port ${PORT}`))
+// start server
+PORT = process.env.PORT || PORT
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 
 export default app
