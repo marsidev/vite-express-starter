@@ -8,9 +8,10 @@
   "license": "ISC",
   "scripts": {
     "dev": "vite",
-    "build": "npx rimraf dist && vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "start": "vite preview"
+    "start": "vite preview",
+    "clean": "npx rimraf dist"
   },
   "dependencies": {
     "@babel/core": "^7",
