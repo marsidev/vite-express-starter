@@ -22,9 +22,13 @@
     "template"
   ],
   "scripts": {
-    "start:server": "pnpm --filter server dev",
-    "start:client": "pnpm --filter client dev",
-    "start": "pnpm run -r --workspace-concurrency 2 --filter server --filter client dev"
+    "build": "pnpm --filter client build",
+    "start": "pnpm run -r --workspace-concurrency 2 --filter server --filter client start",
+    "dev": "pnpm run -r --workspace-concurrency 2 --filter server --filter client dev",
+    "start:server": "pnpm --filter server start",
+    "start:client": "pnpm --filter client start",
+    "dev:server": "pnpm --filter server dev",
+    "dev:client": "pnpm --filter client dev"
   },
   "devDependencies": {
     "eslint": "7.32.0",
