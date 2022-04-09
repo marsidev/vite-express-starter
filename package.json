@@ -22,6 +22,8 @@
     "template"
   ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "preinstall:all": "npx only-allow pnpm",
     "build": "pnpm --filter client build",
     "start": "pnpm --filter server start",
     "dev": "pnpm run -r --workspace-concurrency 2 --filter server --filter client dev",
