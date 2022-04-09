@@ -55,7 +55,6 @@ function App() {
           bg='cyan.400'
           content='Learn React'
           href='https://reactjs.org'
-          // color='#000'
           icon={<SiReact />}
         />
 
@@ -77,7 +76,7 @@ function App() {
       <LearnButton
         bg='#000'
         content='GitHub'
-        href='https://reactjs.org'
+        href='https://github.com/marsigliadev/vite-express-starter'
         icon={<FaGithub />}
         mt={4}
       />
