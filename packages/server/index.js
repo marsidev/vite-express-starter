@@ -12,6 +12,9 @@ app.use(express.json())
 app.use(cors())
 app.use(morgan('dev'))
 
+// serving static files
+app.use(express.static('../client/dist'))
+
 // routing
 app.use('/api/hello', hello)
 
