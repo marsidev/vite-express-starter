@@ -2,7 +2,8 @@ import 'dotenv/config'
 import express from 'express'
 // import cors from 'cors'
 import morgan from 'morgan'
-import hello from './src/controllers/hello'
+// import hello from '#controllers/hello.js'
+import hello from './src/controllers/hello.js'
 
 const app = express()
 
