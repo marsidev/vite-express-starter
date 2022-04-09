@@ -18,8 +18,6 @@ The following packages are used in this project:
   - [dotenv](https://github.com/motdotla/dotenv)
   - [expressjs/cors](https://github.com/expressjs/cors)
   - [cross-env](https://github.com/kentcdodds/cross-env)
-  - [jest](https://github.com/facebook/jest)
-  - [supertest](https://github.com/visionmedia/supertest)
   - [morgan](https://github.com/expressjs/morgan)
  
 - Client:
