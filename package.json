@@ -44,5 +44,8 @@
       "client": "workspace:*",
       "server": "workspace:*"
     }
+  },
+  "engines": {
+    "node": ">=12.0.0 <17.0.0"
   }
 }
