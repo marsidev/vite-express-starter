@@ -18,12 +18,5 @@
       "use": "@vercel/static-build"
     }
   ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/packages/server/src/index.js" },
-    { "handle": "filesystem" },
-    { "src": "/assets/(.*)", "dest": "/packages/client/dist/assets/$1" },
-    { "src": "/(.*).(js|css|ico|svg)", "dest": "/packages/client/dist/$1.$2" },
-    { "src": "/", "dest": "/packages/client/dist/index.html" },
-    { "src": "/(.*)", "dest": "/packages/client/dist/$1" }
-  ]
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/packages/server/src" }]
 }

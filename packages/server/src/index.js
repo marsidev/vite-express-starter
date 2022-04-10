@@ -16,7 +16,7 @@ app.use(morgan('dev'))
 // const root = pathname.slice(1).replace(/%20/g, ' ')
 // console.log(root)
 // app.use(express.static(root))
-// app.use(express.static('../../client/dist'))
+app.use(express.static('../client/dist'))
 
 // routing
 app.use('/api/hello', hello)
