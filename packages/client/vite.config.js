@@ -17,7 +17,11 @@ export default defineConfig({
       '/api': 'http://localhost:3001'
     }
   },
-  plugins: [react(), pathsResolver(paths)]
+  plugins: [react(), pathsResolver(paths)],
+  build: {
+    outDir: '../../public',
+    emptyOutDir: false
+  }
 })
 
 function pathsResolver(paths) {

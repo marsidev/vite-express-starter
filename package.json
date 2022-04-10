@@ -9,22 +9,12 @@
   "version": "0.0.1",
   "license": "ISC",
   "workspaces": [
-    "packages/client",
-    "packages/server"
-  ],
-  "keywords": [
-    "express",
-    "vite",
-    "vite-express",
-    "vite-react",
-    "react",
-    "chakra-ui",
-    "template"
+    "packages/*"
   ],
   "scripts": {
-    "build": "pnpm --filter client build",
-    "start": "pnpm --filter server start",
-    "dev": "pnpm run -r --workspace-concurrency 2 --filter server --filter client dev",
+    "build": "pnpm --filter ./packages/client build",
+    "start": "pnpm --filter ./packages/server start",
+    "dev": "pnpm run -r --workspace-concurrency 2 --filter ./packages/server --filter ./packages/client dev",
     "start:all": "pnpm build && pnpm start",
     "heroku-prebuild": "npm install -g pnpm && pnpm install"
   },
@@ -45,5 +35,14 @@
   "engines": {
     "node": "14.x",
     "pnpm": "6.x"
-  }
+  },
+  "keywords": [
+    "express",
+    "vite",
+    "vite-express",
+    "vite-react",
+    "react",
+    "chakra-ui",
+    "template"
+  ]
 }

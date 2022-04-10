@@ -12,11 +12,7 @@ app.use(cors())
 app.use(morgan('dev'))
 
 // serve the build
-// const { pathname } = new URL('../../client/dist', import.meta.url)
-// const root = pathname.slice(1).replace(/%20/g, ' ')
-// console.log(root)
-// app.use(express.static(root))
-app.use(express.static('../client/dist'))
+app.use(express.static('../../public'))
 
 // routing
 app.use('/api/hello', hello)
