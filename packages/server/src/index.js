@@ -11,11 +11,14 @@ app.use(express.json())
 app.use(cors())
 app.use(morgan('dev'))
 
+// serve the build
+const { pathname } = new URL('../../client/dist', import.meta.url)
+const root = pathname.slice(1).replace(/%20/g, ' ')
+app.use(express.static(root))
+// app.use(express.static('../../client/dist'))
+
 // routing
 app.use('/api/hello', hello)
-
-// serving static files
-app.use(express.static('../client/dist'))
 
 // start server
 const PORT = process.env.PORT || 3001
