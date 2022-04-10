@@ -12,7 +12,7 @@ app.use(cors())
 app.use(morgan('dev'))
 
 // serve the build
-app.use(express.static('../../public'))
+// app.use(express.static('../../public'))
 
 // routing
 app.use('/api/hello', hello)
