@@ -4,14 +4,14 @@
   "builds": [
     {
       "src": "/packages/server/src/index.js",
-      "use": "@vercel/node@latest",
-      "config": {
-        "distDir": "../../public"
-      }
+      "use": "@vercel/node@latest"
     },
     {
       "src": "/packages/client/package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "../../public"
+      }
     }
   ],
   "rewrites": [{ "source": "/api/(.*)", "destination": "/packages/server/src" }]
