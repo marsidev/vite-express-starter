@@ -12,11 +12,9 @@ const paths = {
 }
 
 export default defineConfig({
-  // server: {
-  //   proxy: {
-  //     '/api': 'http://localhost:3001'
-  //   }
-  // },
+  server: {
+    proxy: { '/api': 'http://localhost:3001' } // for development purposes
+  },
   plugins: [react(), pathsResolver(paths)],
   build: {
     outDir: '../../public',
