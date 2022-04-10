@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "vite-express-starter",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/packages/server/src/index.js" }
+  ]
+}
