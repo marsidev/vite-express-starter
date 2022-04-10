@@ -26,5 +26,9 @@ The following packages are used in this project:
   - [axios](https://github.com/axios/axios)
 
 ## Deploy
-This project can be deployed to [Heroku](https://www.heroku.com) or any other platform which support NodeJS apps.
+This project can be deployed to [Heroku](https://www.heroku.com) or any other platform which support NodeJS apps, such as [Railway](https://railway.app).
 On production, the main entry point is the server `index.js` which serves the client build using `express.static()`.
+
+## Demo
+[Heroku demo](https://vite-express-starter.herokuapp.com)
+[Railway demo](https://vite-express-starter-production.up.railway.app)
