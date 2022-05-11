@@ -30,5 +30,5 @@ This project can be deployed to [Heroku](https://www.heroku.com) or any other pl
 On production, the main entry point is the server `index.js` which serves the client build using `express.static()`.
 
 ## Demo
-[Heroku demo](https://vite-express-starter.herokuapp.com)
+[Heroku demo](https://vite-express-starter.herokuapp.com) <br />
 [Railway demo](https://vite-express-starter-production.up.railway.app)
