@@ -76,7 +76,7 @@ function App() {
       <LearnButton
         bg='#000'
         content='GitHub'
-        href='https://github.com/marsigliadev/vite-express-starter'
+        href='https://github.com/marsidev/vite-express-starter'
         icon={<FaGithub />}
         mt={4}
       />
