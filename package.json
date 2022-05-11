@@ -16,6 +16,7 @@
     "start": "pnpm --filter ./packages/server start",
     "dev": "pnpm run -r --workspace-concurrency 2 --filter ./packages/server --filter ./packages/client dev",
     "start:all": "pnpm build && pnpm start",
+    "heroku": "git push heroku main",
     "heroku-prebuild": "npm install -g pnpm && pnpm install"
   },
   "devDependencies": {
@@ -33,8 +34,7 @@
     }
   },
   "engines": {
-    "node": "14.x",
-    "pnpm": "6.x"
+    "node": "14.x"
   },
   "keywords": [
     "express",
