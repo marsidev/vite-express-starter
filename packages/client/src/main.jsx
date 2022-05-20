@@ -1,5 +1,5 @@
 import '@styles/index.css'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import App from '@/App'
 import theme from '@lib/theme'
 import { ChakraProvider } from '@chakra-ui/react'
@@ -12,5 +12,6 @@ const Content = () => {
   )
 }
 
-const root = document.getElementById('root')
-render(<Content />, root)
+const container = document.getElementById('root')
+const root = createRoot(container)
+root.render(<Content />)
