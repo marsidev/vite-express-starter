@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import axios from 'axios'
+import 'isomorphic-fetch'
 import { Button, Stack, Heading } from '@chakra-ui/react'
 import ReactLogo from '@components/ReactLogo'
 import LearnButton from '@components/LearnButton'
@@ -12,7 +12,7 @@ function App() {
   const [data, setData] = useState('')
 
   const fetchData = async () => {
-    const { data } = await axios.get('/api/hello')
+    const data = await fetch('/api/hello').then(r => r.json())
     setData(data)
   }
 
@@ -29,15 +29,17 @@ function App() {
       </Heading>
 
       <Stack py={4} direction='row' spacing={4} align='center'>
-        <Button zIndex={4} ml={2} colorScheme='pink' onClick={() => setCount(count => count + 1)}>
+        <Button
+          zIndex={4}
+          ml={2}
+          colorScheme='pink'
+          onClick={() => setCount(count => count + 1)}
+        >
           Counter is: {count}
         </Button>
 
         <Button ml={2} colorScheme='pink' onClick={fetchData}>
-          {data
-            ? JSON.stringify(data)
-            : 'Fetch API data'
-          }
+          {data ? JSON.stringify(data) : 'Fetch API data'}
         </Button>
       </Stack>
 
