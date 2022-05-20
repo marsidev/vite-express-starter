@@ -1,5 +1,5 @@
-import express from 'express'
-const router = express.Router()
+import { Router } from 'express'
+const router = Router()
 const { MESSAGE } = process.env
 
 router.get('/', (req, res) => {

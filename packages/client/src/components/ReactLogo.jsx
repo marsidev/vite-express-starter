@@ -15,11 +15,11 @@ const ReactLogo = () => {
 
   return (
     <Image
-      animation={animation}
-      src={logo}
       alt='logo'
+      animation={animation}
       h='40vmin'
       pointerEvents='none'
+      src={logo}
     />
   )
 }

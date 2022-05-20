@@ -3,15 +3,17 @@
     "name": "Luis Marsiglia",
     "email": "marsiglia.business@gmail.com"
   },
-  "name": "@vite-express-starter/public",
-  "version": "0.0.1",
+  "name": "@vite-express-starter/client",
+  "version": "1.0.0",
   "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "pnpm clean && vite build",
     "preview": "vite preview",
     "start": "vite preview",
-    "clean": "npx rimraf ../../public"
+    "clean": "npx rimraf ../../public",
+    "lint": "eslint . --ext .js --ext .jsx --ext .ts --ext .tsx",
+    "lint-fix": "eslint . --ext .js --ext .jsx --ext .ts --ext .tsx --fix"
   },
   "dependencies": {
     "@babel/core": "^7.18.0",
@@ -27,9 +29,5 @@
     "react-icons": "^4.3.1",
     "rollup": "^2.74.1",
     "vite": "^2.9.9"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-plugin-react": "7.28.0"
   }
 }

@@ -19,33 +19,33 @@ function App() {
   return (
     <AppContainer>
       <Heading
+        bgClip='text'
+        bgGradient='linear(to-l, #7928CA, #FF0080)'
         fontSize='4xl'
         fontWeight='extrabold'
-        bgClip='text'
         textAlign='center'
-        bgGradient='linear(to-l, #7928CA, #FF0080)'
       >
         Express + React + Vite + Chakra UI starter!
       </Heading>
 
-      <Stack py={4} direction='row' spacing={4} align='center'>
+      <Stack align='center' direction='row' py={4} spacing={4}>
         <Button
-          zIndex={4}
-          ml={2}
           colorScheme='pink'
+          ml={2}
+          zIndex={4}
           onClick={() => setCount(count => count + 1)}
         >
           Counter is: {count}
         </Button>
 
-        <Button ml={2} colorScheme='pink' onClick={fetchData}>
+        <Button colorScheme='pink' ml={2} onClick={fetchData}>
           {data ? JSON.stringify(data) : 'Fetch API data'}
         </Button>
       </Stack>
 
       <ReactLogo />
 
-      <Stack mt={16} direction={['column', 'row']} spacing={4} align='center'>
+      <Stack align='center' direction={['column', 'row']} mt={16} spacing={4}>
         <LearnButton
           bg='#000'
           content='Learn Express'

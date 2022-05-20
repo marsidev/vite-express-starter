@@ -25,7 +25,7 @@ export default defineConfig({
 function pathsResolver(paths) {
   const projectRootDir = resolve(__dirname)
   const keys = Object.keys(paths)
-  const entries = keys.map((k, i) => {
+  const entries = keys.map(k => {
     return {
       find: k,
       replacement: resolve(projectRootDir, paths[k])
